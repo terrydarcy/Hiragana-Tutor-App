@@ -1,0 +1,168 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 3px;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;}
+
+td {
+       background-image: url("res/sheet50.png");
+       width: 64px ; height: 64px;
+       border: 1px solid black;
+       filter:drop-shadow(5px 5px 10px black);
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+ .button{
+    display:inline-block;
+    width: 64px;
+    height: 64px;
+    background: transparent;
+    border:none;
+}
+
+button.btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+div:hover {
+        background-size: 100%;
+        background-repeat: no-repeat;
+}
+
+#submit {
+  opacity: 0;
+}
+
+.a:hover  {     background-color: #999999;
+background-image: url("res/gifs/a.gif");}
+.i:hover  {     background-color: #999999;
+background-image: url("res/gifs/i.gif");}
+.u:hover  {     background-color: #999999;
+background-image: url("res/gifs/u.gif");}
+.e:hover  {     background-color: #999999;
+background-image: url("res/gifs/e.gif");}
+.o:hover  {     background-color: #999999;
+background-image: url("res/gifs/o.gif");}
+.ka:hover {     background-color: #999999;
+background-image: url("res/gifs/ka.gif");}
+.ki:hover {     background-color: #999999;
+background-image: url("res/gifs/ki.gif");}
+.ku:hover {     background-color: #999999;
+background-image: url("res/gifs/ku.gif");}
+.ke:hover {     background-color: #999999;
+background-image: url("res/gifs/ke.gif");}
+.ko:hover {     background-color: #999999;
+background-image: url("res/gifs/ko.gif");}
+.sa:hover {     background-color: #999999;
+background-image: url("res/gifs/sa.gif");}
+.shi:hover{     background-color: #999999;
+background-image: url("res/gifs/shi.gif");}
+.su:hover {     background-color: #999999;
+background-image: url("res/gifs/su.gif");}
+.se:hover {     background-color: #999999;
+background-image: url("res/gifs/se.gif");}
+.so:hover {     background-color: #999999;
+background-image: url("res/gifs/so.gif");}
+.ta:hover {     background-color: #999999;
+background-image: url("res/gifs/ta.gif");}
+.chi:hover{     background-color: #999999;
+background-image: url("res/gifs/chi.gif");}
+.tsu:hover{     background-color: #999999;
+background-image: url("res/gifs/tsu.gif");}
+.te:hover {     background-color: #999999;
+background-image: url("res/gifs/te.gif");}
+.to:hover {     background-color: #999999;
+background-image: url("res/gifs/to.gif");}
+.na:hover {     background-color: #999999;
+background-image: url("res/gifs/na.gif");}
+.ni:hover {     background-color: #999999;
+background-image: url("res/gifs/ni.gif");}
+.nu:hover {     background-color: #999999;
+background-image: url("res/gifs/nu.gif");}
+.ne:hover {     background-color: #999999;
+background-image: url("res/gifs/ne.gif");}
+.no:hover {     background-color: #999999;
+background-image: url("res/gifs/no.gif");}
+.ha:hover {     background-color: #999999;
+background-image: url("res/gifs/ha.gif");}
+.hi:hover {     background-color: #999999;
+background-image: url("res/gifs/hi.gif");}
+.fu:hover {     background-color: #999999;
+background-image: url("res/gifs/fu.gif");}
+.he:hover {     background-color: #999999;
+background-image: url("res/gifs/he.gif");}
+.ho:hover {     background-color: #999999;
+background-image: url("res/gifs/ho.gif");}
+.ma:hover {     background-color: #999999;
+background-image: url("res/gifs/ma.gif");}
+.mi:hover {     background-color: #999999;
+background-image: url("res/gifs/mi.gif");}
+.mu:hover {     background-color: #999999;
+background-image: url("res/gifs/mu.gif");}
+.me:hover {     background-color: #999999;
+background-image: url("res/gifs/me.gif");}
+.mo:hover {     background-color: #999999;
+background-image: url("res/gifs/mo.gif");}
+.ya:hover {     background-color: #999999;
+background-image: url("res/gifs/ya.gif");}
+.yu:hover {     background-color: #999999;
+background-image: url("res/gifs/yu.gif");}
+.yo:hover {     background-color: #999999;
+background-image: url("res/gifs/yo.gif");}
+.ra:hover {     background-color: #999999;
+background-image: url("res/gifs/ra.gif");}
+.ri:hover {     background-color: #999999;
+background-image: url("res/gifs/ri.gif");}
+.ru:hover {     background-color: #999999;
+background-image: url("res/gifs/ru.gif");}
+.re:hover {     background-color: #999999;
+background-image: url("res/gifs/re.gif");}
+.ro:hover {     background-color: #999999;
+background-image: url("res/gifs/ro.gif");}
+.wa:hover {     background-color: #999999;
+background-image: url("res/gifs/wa.gif");}
+.wo:hover {     background-color: #999999;
+background-image: url("res/gifs/wo.gif");}
+.n:hover  {     background-color: #999999;
+background-image: url("res/gifs/n.gif");}
+
+.column1 {
+  float: left;
+  width: 50%;
+}
+.column2 {
+  float: right;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#results {
+    font-size: 20px;
+    font-weight: 3px;
+}
+
+#section {
+  margin: auto;
+}
